@@ -12,11 +12,41 @@
 		<link rel="stylesheet" href="css/reset.css">
 		<!-- font awsome icons -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<!-- google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
 		<!-- main css file -->
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 
 	<body>
+		<!-- header -->
+		<section class="container-fluid headerS">
+			<div class="col-12 text-center">
+				<img class="d-inline" src="http://cdn.shopify.com/s/files/1/0185/5092/products/persons-0041.png?v=1369543932" alt="emoji with cool sunglasses">
+				<h1>ALL COMMENTS WELCOME</h1>
+			</div>
+		</section>
+
+		<!-- form -->
+		<section class="container-fluid infoS">
+			<div class="col-8 mx-auto text-center">
+				<div class="input-group mb-3">
+				  <div class="input-group-prepend">
+				    <span class="input-group-text" id="basic-addon1">Name:</span>
+				  </div>
+				  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" id="name">
+				</div>
+
+				<div class="input-group">
+				  <div class="input-group-prepend">
+				    <span class="input-group-text">Comment:</span>
+				  </div>
+				  <textarea class="form-control" id="comment" aria-label="With textarea"></textarea>
+				</div>
+				<button class= "btn btn-primary my-2" onclick="submitC()" >Submit</button>
+			</div>
+
+		</section>
 
 
 

@@ -1,2 +1,31 @@
-/*cascading style sheets*/
-/*CS selector*/
+body{
+  background-image: url(../img/background.png)
+}
+.headerS{
+  margin-top: 100px;
+}
+.headerS h1{
+  font-family: 'Mali', cursive;
+}
+.headerS img{
+  height: 100px;
+}
+.infoS{
+  margin-bottom: 50px;
+}
+.cBox{
+  margin-top:5px;
+  margin-bottom:5px;
+}
+.cHolder{
+  background-color: #fff6c1;
+  height: 90px;
+}
+.cHolder h4{
+  color: #A59225;
+  font-family: 'Mali', cursive;
+  text-transform: capitalize;
+}
+.cHolder p{
+  color: #313130;
+}
